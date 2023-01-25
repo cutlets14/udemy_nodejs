@@ -7,6 +7,9 @@
     * V8 compiles your JS code and compiles it to machine code for execution by your machine.
     * V8 itself is run in C++.
     * Node.JS adds certain features on top of V8, e.g., working with the local filesystem etc., which allow using JS on top of servers without browsers.
+* Node.JS is not limited to running things on a server. It is important to realize that Node is a JS runtime.
+  * You can use it for more than just server-side code: utility scripts, build tools (e.g., React, Angular relies on Node for building code and assets).
+* Most popular usage is Node.JS' role in web development - running the server, listening to requests, executing business logic (handle requests, validate input, connect to DB etc.), responses (return responses, rendered HTML or JSON or files etc.)
 
-
+Alternatives to Node.JS include Python (Flask, Django), php (Laravel), Ruby (Rails), ASP.NET etc.
 
