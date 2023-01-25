@@ -17,3 +17,7 @@ How to get the most out of this course?
 * Watch the videos - at your speed; pause and rewind as needed.
 * Code along and do the exercises
 * Use the course resources - compare against source code (last lecture of each module), links
+
+Two ways of executing your Node.JS source code:
+1. REPL - Read-Evaluate-Print-Loop
+2. Execute files - how it is done for real-world apps
