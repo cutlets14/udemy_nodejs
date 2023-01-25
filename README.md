@@ -13,3 +13,7 @@
 
 Alternatives to Node.JS include Python (Flask, Django), php (Laravel), Ruby (Rails), ASP.NET etc.
 
+How to get the most out of this course?
+* Watch the videos - at your speed; pause and rewind as needed.
+* Code along and do the exercises
+* Use the course resources - compare against source code (last lecture of each module), links
