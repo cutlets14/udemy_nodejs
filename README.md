@@ -21,3 +21,8 @@ How to get the most out of this course?
 Two ways of executing your Node.JS source code:
 1. REPL - Read-Evaluate-Print-Loop
 2. Execute files - how it is done for real-world apps
+
+JavaScript
+* Weakly-typed programming language - JS knows types but it doesn't force you to define what type one is using; data types can be switched dynamically
+* Object-oriented language - Data can be organized in logical objects; need to be aware of Primitive and reference types
+* Verstaile language - runs in browser, machine, or server; can perform a broad variety of tasks
