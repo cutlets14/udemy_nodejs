@@ -26,3 +26,4 @@ JavaScript
 * Weakly-typed programming language - JS knows types but it doesn't force you to define what type one is using; data types can be switched dynamically
 * Object-oriented language - Data can be organized in logical objects; need to be aware of Primitive and reference types
 * Verstaile language - runs in browser, machine, or server; can perform a broad variety of tasks
+* bind() can be used to tell JS to make a function that, no matter how it is called, is called with a particular `this` value. The paradigm works because `this` always refers to whoever calls `this`.
