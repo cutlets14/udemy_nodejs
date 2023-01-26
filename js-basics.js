@@ -3,7 +3,7 @@ var name = 'Satvik';
 var age = 29;
 var hasHobbies = true;
 
-function summarizeUser(userName, userAge, userHasHobby) {
+const summarizeUser = (userName, userAge, userHasHobby) => {
     return `Name is ${userName} and user is aged ${userAge} and has a hobby named ${userHasHobby}`;
 }
 
