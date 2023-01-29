@@ -43,3 +43,8 @@ JavaScript
 Async and Promises in JS
 * Callback hell!
 * Usage of Promise class.
+
+Node-related content
+* Core modules of Node
+  * http (launch a server, send requests), https (launch an SSL server), fs (perform filesystem operations), path, os
+  * "require" keyword - the way to import files in Node.JS either using a path to another file or a core module by name; both using string arguments
