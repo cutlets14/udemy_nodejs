@@ -74,5 +74,29 @@ const printNameDestruct = ({name, age}) => {
     console.log(`${person.name} and ${person.age}`);
 };
 
-printName(person);
-printNameDestruct(person);
+// printName(person);
+// printNameDestruct(person);
+
+// Async and Promises
+// Async code because it does not finish execution immediately
+// setTimeout(callback function, time before callback function should be executed)
+// setTimeout(() => {
+//     console.log("Timer is done!");
+// }, 2000);
+
+// Aside from hardware considerations, the following bits of code run BEFORE the setTimeout() above because they are synchronous code
+console.log("Hello!");
+console.log("Hi!");
+
+const fetchData = (callback) => {
+    setTimeout(() => {
+        callback('Done!');
+    }, 1500);
+};
+
+setTimeout(() => {
+    console.log('Timer is done!');
+    fetchData((text) => {
+        console.log(text)
+    });
+}, 2000);

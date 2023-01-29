@@ -39,3 +39,7 @@ JavaScript
 * Rest operator - also "..." - essentially the opposite of the spread operator; depends on the context in which "..." is used, the rest operator is used to merge elements/properties into an array
   * From MDN - The rest parameter syntax allows a function to accept an indefinite number of arguments as an array
 * Destructuring - Can occur both within and outside functions; access elements in objects or arrays using name or position respectively and only use the data that is needed.
+
+Async and Promises in JS
+* Callback hell!
+* Usage of Promise class.
