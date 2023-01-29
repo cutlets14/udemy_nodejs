@@ -21,3 +21,30 @@ console.log(add2(5, 6));
 // More arrow functions
 const addRandom = () => 1 + 2;
 console.log(addRandom());
+
+// JS objects
+const person = {
+    name: 'Max',
+    age: 30,
+    greet() {
+        console.log('Hi, I am ' + this.name);
+    }
+};
+
+person.greet();
+
+// Arrays
+const hobbies = ['Sports', 'Cooking', 1];
+
+// console.log(hobbies[0]);
+
+for (let item in hobbies) {
+    console.log(hobbies[item]);
+}
+
+console.log(hobbies.map(hobby => 'Hobby: ' + hobby));
+console.log(hobbies);
+
+// Proof that Arrays operates using a reference type
+hobbies.push('Programming');
+console.log(hobbies)

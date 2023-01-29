@@ -27,3 +27,11 @@ JavaScript
 * Object-oriented language - Data can be organized in logical objects; need to be aware of Primitive and reference types
 * Verstaile language - runs in browser, machine, or server; can perform a broad variety of tasks
 * bind() can be used to tell JS to make a function that, no matter how it is called, is called with a particular `this` value. The paradigm works because `this` always refers to whoever calls `this`.
+* Objects allow us to group functionality together:
+  * We can have regular key/value pairs in there
+  * We can also have functions in there. Calling a function which uses an attribute defined in the object should either use "<function_name>() {}" or the traditional "<function_name> function() {}" conventions. In other words, arrow functions do not work!
+* Arrays can store items with mixed types: strings, numbers, even objects can be stored at the same time.
+  * ".map()" -> transform the array and return a new one after the transformation. Map always takes in a function which defines how each element of the array should be modified.
+  * There are tons of methods for arrays
+  * Objects and Arrays are reference types - when stored in a "const", the array or object can still be edited without violating the restriction that they cannot change.
+  * More info here - https://academind.com/tutorials/reference-vs-primitive-values
