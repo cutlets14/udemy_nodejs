@@ -48,3 +48,17 @@ console.log(hobbies);
 // Proof that Arrays operates using a reference type
 hobbies.push('Programming');
 console.log(hobbies)
+
+// Spread operator
+const copiedHobbies = [...hobbies]
+console.log(copiedHobbies);
+
+const copiedPerson = {...person}
+console.log(copiedPerson);
+
+// Rest operator
+const toArray = (...args) => {
+    return args;
+}
+
+console.log(toArray(1, 2, 3, 4));

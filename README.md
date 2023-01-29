@@ -35,3 +35,7 @@ JavaScript
   * There are tons of methods for arrays
   * Objects and Arrays are reference types - when stored in a "const", the array or object can still be edited without violating the restriction that they cannot change.
   * More info here - https://academind.com/tutorials/reference-vs-primitive-values
+* Spread operator - "..." - take the array or object after the operator, pull out all elements/properties from the object/array, and put those elements/properties to whatever is around the spread operator
+* Rest operator - also "..." - essentially the opposite of the spread operator; depends on the context in which "..." is used, the rest operator is used to merge elements/properties into an array
+  * From MDN - The rest parameter syntax allows a function to accept an indefinite number of arguments as an array
+* Destructuring - 
