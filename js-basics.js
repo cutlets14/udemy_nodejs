@@ -17,3 +17,7 @@ const add2 = (a, b) => a + b;
 
 console.log(add(1, 2));
 console.log(add2(5, 6));
+
+// More arrow functions
+const addRandom = () => 1 + 2;
+console.log(addRandom());
