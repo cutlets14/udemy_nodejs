@@ -7,7 +7,7 @@ const summarizeUser = (userName, userAge, userHasHobby) => {
     return `Name is ${userName} and user is aged ${userAge} and has a hobby named ${userHasHobby}`;
 }
 
-console.log(summarizeUser("satvik", 30, "gaming"));
+// console.log(summarizeUser("satvik", 30, "gaming"));
 
 const add = (a, b) => {
     return a + b;
@@ -15,14 +15,14 @@ const add = (a, b) => {
 
 const add2 = (a, b) => a + b;
 
-console.log(add(1, 2));
-console.log(add2(5, 6));
+// console.log(add(1, 2));
+// console.log(add2(5, 6));
 
 // More arrow functions
 const addRandom = () => 1 + 2;
-console.log(addRandom());
+// console.log(addRandom());
 
-// JS objects
+// JS objects~
 const person = {
     name: 'Max',
     age: 30,
@@ -31,34 +31,48 @@ const person = {
     }
 };
 
-person.greet();
+// person.greet();
 
-// Arrays
-const hobbies = ['Sports', 'Cooking', 1];
+// // Arrays
+// const hobbies = ['Sports', 'Cooking', 1];
 
-// console.log(hobbies[0]);
+// // console.log(hobbies[0]);
 
-for (let item in hobbies) {
-    console.log(hobbies[item]);
+// for (let item in hobbies) {
+//     console.log(hobbies[item]);
+// }
+
+// console.log(hobbies.map(hobby => 'Hobby: ' + hobby));
+// console.log(hobbies);
+
+// // Proof that Arrays operates using a reference type
+// hobbies.push('Programming');
+// console.log(hobbies)
+
+// // Spread operator
+// const copiedHobbies = [...hobbies]
+// console.log(copiedHobbies);
+
+// const copiedPerson = {...person}
+// console.log(copiedPerson);
+
+// // Rest operator
+// const toArray = (...args) => {
+//     return args;
+// }
+
+// console.log(toArray(1, 2, 3, 4));
+
+// Destructuring
+// w/o destructuring i.e. using the full object even if we just want a subset of the object's properties
+const printName = (personObject) => {
+    console.log(personObject.name);
 }
 
-console.log(hobbies.map(hobby => 'Hobby: ' + hobby));
-console.log(hobbies);
+// w/ destructing, only the necessary object properties are named which improves knowledge of the required arguments for the function
+const printNameDestruct = ({name, age}) => {
+    console.log(`${person.name} and ${person.age}`);
+};
 
-// Proof that Arrays operates using a reference type
-hobbies.push('Programming');
-console.log(hobbies)
-
-// Spread operator
-const copiedHobbies = [...hobbies]
-console.log(copiedHobbies);
-
-const copiedPerson = {...person}
-console.log(copiedPerson);
-
-// Rest operator
-const toArray = (...args) => {
-    return args;
-}
-
-console.log(toArray(1, 2, 3, 4));
+printName(person);
+printNameDestruct(person);

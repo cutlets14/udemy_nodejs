@@ -38,4 +38,4 @@ JavaScript
 * Spread operator - "..." - take the array or object after the operator, pull out all elements/properties from the object/array, and put those elements/properties to whatever is around the spread operator
 * Rest operator - also "..." - essentially the opposite of the spread operator; depends on the context in which "..." is used, the rest operator is used to merge elements/properties into an array
   * From MDN - The rest parameter syntax allows a function to accept an indefinite number of arguments as an array
-* Destructuring - 
+* Destructuring - Can occur both within and outside functions; access elements in objects or arrays using name or position respectively and only use the data that is needed.
